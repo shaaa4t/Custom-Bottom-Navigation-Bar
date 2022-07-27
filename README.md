@@ -19,6 +19,8 @@
 
 ## Usage
 
+- Add `flutter_bloc` package in pubspec.yaml
+
 - in bottom_nav.dart
 ```dart
 bottomNavigationBar: CustomBottomNavBarDot(
