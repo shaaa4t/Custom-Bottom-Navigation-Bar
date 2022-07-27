@@ -50,7 +50,11 @@ bottomNavigationBar: CustomBottomNavBarDot(
 ## Snapshots
 
 - CustomBottomNavBarDash
+
 ![](/dash.gif)
 
+
 - CustomBottomNavBarDot
+
 ![](/dot.gif)
+
