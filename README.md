@@ -30,7 +30,7 @@ bottomNavigationBar: CustomBottomNavBarDot(
   defaultSelectedIndex: 0, //The default selected item from the navigation bar
   backgroundColor: Colors.grey.shade100, //Background color of navigation bar
   radius: 25, //Radius navigation bar 
-  showLabel: true, //To hide the label
+  showLabel: true, //To show or hide the label
   textList: [
 	'Home',
 	'Camera',
