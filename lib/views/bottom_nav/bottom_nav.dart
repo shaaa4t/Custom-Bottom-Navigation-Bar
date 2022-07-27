@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../cubit/navbar_cubit.dart';
-import 'custom_bottom_nav_bar3.dart';
-import 'custom_bottom_nav_bar.dart';
-import 'custom_bottom_nav_bar2.dart';
+import 'custom_bottom_nav_bar_dash.dart';
+import 'custom_bottom_nav_bar_dot.dart';
 
 class BottomNav extends StatefulWidget {
   @override
@@ -21,14 +20,14 @@ class _BottomNavState extends State<BottomNav> {
           var cubit = NavbarCubit.get(context);
 
           return Scaffold(
-            bottomNavigationBar: CustomBottomNavBar3(
+            bottomNavigationBar: CustomBottomNavBarDot(
               onChange: (index) {
                 cubit.changeBottomNavBar(index);
               },
               defaultSelectedIndex: 0,
               backgroundColor: Colors.grey.shade100,
               radius: 25,
-              showLabel: true,
+              showLabel: false,
               textList: [
                 'Home',
                 'Camera',

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CustomBottomNavBar2 extends StatefulWidget {
+class CustomBottomNavBarDot extends StatefulWidget {
   final int defaultSelectedIndex;
   final Function(int) onChange;
   final List<IconData> iconList;
@@ -12,7 +12,7 @@ class CustomBottomNavBar2 extends StatefulWidget {
   final double sizeIcon;
   final bool showLabel;
 
-  CustomBottomNavBar2({
+  CustomBottomNavBarDot({
     this.defaultSelectedIndex = 0,
     required this.onChange,
     required this.iconList,
@@ -26,10 +26,10 @@ class CustomBottomNavBar2 extends StatefulWidget {
   });
 
   @override
-  _CustomBottomNavBar2State createState() => _CustomBottomNavBar2State();
+  _CustomBottomNavBarDotState createState() => _CustomBottomNavBarDotState();
 }
 
-class _CustomBottomNavBar2State extends State<CustomBottomNavBar2> {
+class _CustomBottomNavBarDotState extends State<CustomBottomNavBarDot> {
   int _selectedIndex = 0;
   List<IconData> _iconList = [];
   List<String> _textList = [];
