@@ -1,7 +1,7 @@
-# **`Custom bottom Navigation bar`**
+# **`Custom bottom Navigation bar`** ✨
 
 
-## Project Structure
+## Project Structure 
 ```dart 
 ├── lib
 │   ├── cubit
@@ -11,7 +11,7 @@
 │   │    └── bottom_nav
 │   │		 ├── bottom_nav.dart
 │   │		 ├── custom_bottom_nav_bar_dash.dart
-│	│		 └── custom_bottom_nav_bar_dot.dart
+│   │ 	 	 └── custom_bottom_nav_bar_dot.dart
 │   └── main.dart
 ├── pubspec.lock
 ├── pubspec.yaml
