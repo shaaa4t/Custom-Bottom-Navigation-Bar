@@ -1,4 +1,4 @@
-# **`Custom bottom Navigation bar`** 🌍
+# **`Custom bottom Navigation bar`**
 
 
 ## Project Structure
