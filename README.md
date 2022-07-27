@@ -1,16 +1,56 @@
-# Custom bottom Nav bar & Onboarding
- 
-A new Flutter project.
+# **`Custom bottom Navigation bar`** 🌍
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Project Structure
+```dart 
+├── lib
+│   ├── cubit
+│   │   ├── navbar_cubit.dart
+│   │   └── navbar_state.dart
+│   ├── views
+│   │    └── bottom_nav
+│   │		 ├── bottom_nav.dart
+│   │		 ├── custom_bottom_nav_bar_dash.dart
+│	│		 └── custom_bottom_nav_bar_dot.dart
+│   └── main.dart
+├── pubspec.lock
+├── pubspec.yaml
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Usage
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- in bottom_nav.dart
+```dart
+bottomNavigationBar: CustomBottomNavBarDot(
+  onChange: (index) {
+	cubit.changeBottomNavBar(index);
+	//or BlocProvider.of<NavbarCubit>(context).changeBottomNavBar(index);
+  }, // To change items
+  
+  defaultSelectedIndex: 0, //The default selected item from the navigation bar
+  backgroundColor: Colors.grey.shade100, //Background color of navigation bar
+  radius: 25, //Radius navigation bar 
+  showLabel: true, //To hide the label
+  textList: [
+	'Home',
+	'Camera',
+	'Messenger',
+	'User',
+  ],//Label list for each item in the navigation bar
+  iconList: [
+	Icons.home_outlined,
+	Icons.camera,
+	Icons.mail_outline,
+	Icons.person_outline,
+  ],//Icon list for each item in the navigation bar
+),
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Snapshots
+
+- CustomBottomNavBarDash
+![](/dash gif.gif)
+
+- CustomBottomNavBarDot
+![](/dot gif.gif)
