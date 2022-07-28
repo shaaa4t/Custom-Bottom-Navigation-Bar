@@ -9,9 +9,9 @@
 │   │   └── navbar_state.dart
 │   ├── views
 │   │   └── bottom_nav
-│   │       ├── bottom_nav.dart
+│   │	    ├── bottom_nav.dart
 │   │	    ├── custom_bottom_nav_bar_dash.dart
-│   │ 	    └── custom_bottom_nav_bar_dot.dart
+│   │	    └── custom_bottom_nav_bar_dot.dart
 │   └── main.dart
 ├── pubspec.lock
 ├── pubspec.yaml
