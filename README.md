@@ -8,10 +8,10 @@
 │   │   ├── navbar_cubit.dart
 │   │   └── navbar_state.dart
 │   ├── views
-│   │    └── bottom_nav
-│   │		 ├── bottom_nav.dart
-│   │		 ├── custom_bottom_nav_bar_dash.dart
-│   │ 	 	 └── custom_bottom_nav_bar_dot.dart
+│   │   └── bottom_nav
+│   │       ├── bottom_nav.dart
+│   │	    ├── custom_bottom_nav_bar_dash.dart
+│   │ 	    └── custom_bottom_nav_bar_dot.dart
 │   └── main.dart
 ├── pubspec.lock
 ├── pubspec.yaml
